@@ -1,0 +1,103 @@
+h1 {
+    font-family: 'Roboto Slab';
+    font-size: xxx-large;
+}
+h2 {
+    font-family: "Roboto Condensed";
+    font-size: xx-large;
+    font-weight: 800;
+}
+html {
+    width: 100%;
+    margin: 0 auto;
+    font-family: "Roboto Flex";
+    font-weight: 300;
+    font-size: large;
+}
+a {
+    text-decoration: none;
+}
+.ibeton_logo {
+    font-family: 'Roboto Slab';
+    font-size: 3.8em;
+    font-weight: 800;
+}
+.header {
+    /*background-color: #f2f2f2;*/
+    margin: 0.5em 1em 0.5em 1em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.header_logo {
+    margin: 0.5em 0 0.5em 1em;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 2em;
+}
+.header_buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    align-items: stretch;
+}
+.phone_button {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-size: x-large;
+    color: white;
+    background-color: deepskyblue;
+    border-radius: 0.3em;
+    border: solid 0.1em lightsteelblue;
+    padding: 0.3em 0.5em;
+}
+.phone_button:hover {
+    background-color: white;
+    color: deepskyblue;
+}
+.phone_button:active {
+    background-color: deepskyblue;
+}
+.button_img {
+    align-items: flex-start;
+}
+.button_number {
+
+}
+.phone_back {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: x-large;
+    background-color: limegreen;
+    color: white;
+    border-radius: 0.3em;
+    border: solid 0.1em lightsteelblue;
+    padding: 0.3em 0.5em;
+}
+.phone_back:hover {
+    background-color: white;
+    color: limegreen;
+}
+.phone_back:after {
+    background-color: limegreen;
+}
+.nav_menu {
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+/*li {*/
+/*    display: inline;*/
+/*}*/
+.navigation {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
